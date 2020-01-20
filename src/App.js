@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-import Login from './pages/login';
-import Dashboard from './pages/dashboard';
+import Home from './pages/home';
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,8 +13,9 @@ class App extends React.Component {
       <div className="App">
         <Router>
           <Switch>
-            <Route exact path="/"><Login/></Route>
-            <Route exact path="/dashboard"><Dashboard/></Route>
+            <Route exact path="/">
+              <Home/>
+            </Route>
           </Switch>
           </Router>
       </div>

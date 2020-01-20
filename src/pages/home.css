@@ -1,0 +1,122 @@
+.home {
+    height: 2000px;
+}
+.header {
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px;
+}
+.display-flex {
+    display: flex;
+}
+.logo {
+    height: 54px;
+    width: 41px;
+}
+.contact-logo {
+    height: 33px;
+    width: 33px;
+    margin: auto;
+    margin-left: 15px;
+}
+.contact-logo.linkedin {
+    height: 37px;
+    width: 37px;
+    margin: auto;
+}
+.contact-logo.github {
+    height: 23px;
+    width: 23px;
+    margin-left: 2px;
+}
+.contact-logo.gmail {
+    height: 25px;
+    width: 25px;
+}
+.contact-logo.fb {
+    padding-top: 6px;
+    margin-left: 10px;
+}
+.external-links {
+    align-items: center;
+    margin-top: -5px;
+}
+
+@font-face {
+    font-family: 'Kalam';
+    src: local('Kalam'), url("https://fonts.googleapis.com/css?family=Kalam&display=swap") format('truetype');
+}
+@font-face {
+    font-family: 'Sacramento';
+    src: local('Sacramento'), url('https://fonts.googleapis.com/css?family=Sacramento&display=swap') format('truetype');
+}
+.title {
+    font-family: 'Kalam', cursive;
+    font-size: 24px;
+}
+.sub-title {
+    font-family: 'Sacramento', cursive;
+}
+.nav-title-container {
+    margin-left: 20px;
+    text-align: left;
+}
+.right-nav {
+    justify-content: space-evenly;
+}
+.right-nav > div {
+    font-size: 14px;
+    font-weight: 600;
+}
+.main-image {
+    /* The image used */
+    background-image: url("../imgs/paresh2.JPG");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -101px;
+    background-position-x: 328px;
+}
+.main-image-container {
+    background-color: black;
+}
+.intro-text {
+    color: white;
+    position: absolute;
+    font-family: 'Kalam', cursive;
+    margin-left: 160px;
+    margin-top: 160px;
+    padding-left: 10px;
+    border-left: 6px solid #8CC53D;
+    text-align: left;
+    width: 400px;
+}
+.intro-text > div {
+    font-size: 30px;
+    font-weight: 800;
+    margin: 5px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.interests-card {
+    padding: 35px 8%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    margin: 15px 0;
+    border-radius: 5px;
+    box-shadow: 0px 1px 27px -3px rgba(0, 0, 0, 0.2);
+}
+.profile-summary {
+    max-width: 1140px;
+    margin: auto;
+}
+.profile-summary .title{
+    margin: 30px 0;
+}
