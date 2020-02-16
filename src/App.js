@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Home from './pages/home';
+import Redux from './pages/redux';
 import {
   BrowserRouter as Router,
   Switch,
@@ -15,6 +16,9 @@ class App extends React.Component {
           <Switch>
             <Route exact path="/">
               <Home/>
+            </Route>
+            <Route exact path="/redux">
+              <Redux/>
             </Route>
           </Switch>
           </Router>

@@ -5,9 +5,12 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {Provider} from 'react-redux';
 import rootReducers from './reducers';
-import {createStore} from 'redux';
+import {createStore, compose} from 'redux';
 
-const store = createStore(rootReducers);
+const enhancers = compose(
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
+const store = createStore(rootReducers, {mode: "light"}, enhancers);
 
 ReactDOM.render(
     <Provider store={store}>
