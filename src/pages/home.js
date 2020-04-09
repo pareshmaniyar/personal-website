@@ -1,6 +1,9 @@
 import React from 'react';
 import './home.css';
 import { ReactComponent as FbLogo } from "../svg/fb.svg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStar } from '@fortawesome/free-solid-svg-icons'
+import SkillsRating from '../components/SkillsRating'
 
 export default function Home() {
     return (
@@ -59,6 +62,54 @@ export default function Home() {
                 A 2017 BITS Graduate with 2 years of experience in Full-Stack development in Node(Express), MongoDB, Vue(VueX), React(Redux), CSS preprocessors. I am responsible for building User Loan journey UI and Operations dashboard at CreditVidya.
                 I have loved brainstorming ideas from my childhood. I spend the majority of my time learning and building websites, reading and learning about Climate Change, Education system and Computer vision.
                 I love playing football and reading biographies and currently reading Creativity, INC by Ed Catmull.
+            </section>
+            <section>
+                <div className="skills">
+                    <div className="skill-card">
+                        <div className="skill-name">HTML</div>
+                        <SkillsRating number={5}/>
+                    </div>
+                    <div className="skill-card">
+                        <div className="skill-name">CSS</div>
+                        <SkillsRating number={5}/>
+                    </div>
+                    <div className="skill-card">
+                        <div className="skill-name">Javascript</div>
+                        <SkillsRating number={4}/>
+                    </div>
+                    <div className="skill-card">
+                        <div className="skill-name">React</div>
+                        <SkillsRating number={3}/>
+                    </div>
+                    <div className="skill-card">
+                        <div className="skill-name">Vue</div>
+                        <SkillsRating number={4}/>
+                    </div>
+                    <div className="skill-card">
+                        <div className="skill-name">Node</div>
+                        <SkillsRating number={3}/>
+                    </div>
+                    <div className="skill-card">
+                        <div className="skill-name">Express</div>
+                        <SkillsRating number={4}/>
+                    </div>
+                    <div className="skill-card">
+                        <div className="skill-name">MongoDB</div>
+                        <SkillsRating number={4}/>
+                    </div>
+                    <div className="skill-card">
+                        <div className="skill-name">Java</div>
+                        <SkillsRating number={2}/>
+                    </div>
+                    <div className="skill-card">
+                        <div className="skill-name">Data Structures and Algorithms</div>
+                        <SkillsRating number={2}/>
+                    </div>
+                    <div className="skill-card">
+                        <div className="skill-name">Design Patterns</div>
+                        <SkillsRating number={1}/>
+                    </div>
+                </div>
             </section>
         </div>
     )
