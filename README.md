@@ -10,6 +10,7 @@
 7. Get in Touch
 8. Testimonials - LinkedIn and twitter
 9. Resume PDF
+10. Blog catergorization
 
 ## Good To Have
 1. Analytics
