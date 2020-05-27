@@ -9,6 +9,7 @@
 6. GitHub, LinkedIn, Stackoverflow, fb, insta link
 7. Get in Touch
 8. Testimonials - LinkedIn and twitter
+9. Resume PDF
 
 ## Good To Have
 1. Analytics
